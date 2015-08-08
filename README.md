@@ -37,6 +37,20 @@ ape framework module for updating modules.
 <!-- Sections Start -->
 <a name="sections"></a>
 
+Usage
+----
+
+### Updat Dependencies in Package.
+
+```javascript
+var apeUpdating = require('ape-updating');
+
+// Update all dependencies
+apeUpdating(function (err) {
+    /*...*/
+});
+```
+
 
 <!-- Sections Start -->
 
@@ -46,7 +60,7 @@ ape framework module for updating modules.
 
 License
 -------
-This software is released under the [ISC License](https://github.com/ape-repo/ape-updating/blob/master/LICENSE).
+This software is released under the [MIT License](https://github.com/ape-repo/ape-updating/blob/master/LICENSE).
 
 <!-- LICENSE End -->
 

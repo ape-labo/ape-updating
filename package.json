@@ -1,6 +1,6 @@
 {
   "name": "ape-updating",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ape framework module for updating modules.",
   "main": "index.js",
   "directories": {
@@ -16,21 +16,31 @@
     "type": "git",
     "url": "git+https://github.com/ape-repo/ape-updating.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "ape",
+    "updating"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ape-repo/ape-updating/issues"
   },
   "homepage": "https://github.com/ape-repo/ape-updating#readme",
   "dependencies": {
     "argx": "^1.1.5",
-    "async": "^1.4.1"
+    "async": "^1.4.1",
+    "colorprint": "^1.1.1",
+    "execcli": "^2.1.0"
   },
   "devDependencies": {
-    "ape-covering": "^1.0.3",
-    "ape-releasing": "^1.0.12",
-    "ape-reporting": "^1.0.3",
-    "ape-tasking": "^1.0.0",
+    "ape-covering": "^1.0.7",
+    "ape-releasing": "^1.0.13",
+    "ape-reporting": "^1.0.7",
+    "ape-tasking": "^1.0.5",
+    "ape-testing": "^1.1.5",
     "ape-tmpl": "^1.0.1",
     "coz": "^1.5.0"
   }
