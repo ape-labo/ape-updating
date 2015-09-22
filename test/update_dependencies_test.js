@@ -6,7 +6,7 @@
 var updateDependencies = require('../lib/update_dependencies.js');
 
 exports['Update dependencies'] = function (test) {
-    var pkgPath = require.resolve('../docs/mockups/package.json');
+    var pkgPath = require.resolve('../doc/mockups/package.json');
     updateDependencies({
         pkgPath: pkgPath
     }, function (err) {

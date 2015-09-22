@@ -21,6 +21,7 @@ ape-updating
 [bd_gemnasium_shield_url]: https://gemnasium.com/ape-repo/ape-updating.svg
 [bd_npm_url]: http://www.npmjs.org/package/ape-updating
 [bd_npm_shield_url]: http://img.shields.io/npm/v/ape-updating.svg?style=flat
+[bd_bower_badge_url]: https://img.shields.io/bower/v/ape-updating.svg?style=flat
 
 <!-- Badge End -->
 
@@ -34,22 +35,23 @@ ape framework module for updating modules.
 
 
 
+
 <!-- Sections Start -->
 <a name="sections"></a>
 
+<!-- Section from "doc/readme/02.Usage.md.hbs" Start -->
+
+<a name="section-doc-readme-02-usage-md"></a>
 Usage
 ----
 
 ### Updat Dependencies in Package.
 
 ```javascript
-var apeUpdating = require('ape-updating');
 
-// Update all dependencies
-apeUpdating(function (err) {
-    /*...*/
-});
 ```
+
+<!-- Section from "doc/readme/02.Usage.md.hbs" End -->
 
 
 <!-- Sections Start -->
