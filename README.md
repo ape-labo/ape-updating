@@ -48,7 +48,12 @@ Usage
 ### Updat Dependencies in Package.
 
 ```javascript
+var apeUpdating = require('ape-updating');
 
+// Update all dependencies
+apeUpdating(function (err) {
+    /*...*/
+});
 ```
 
 <!-- Section from "doc/readme/02.Usage.md.hbs" End -->
