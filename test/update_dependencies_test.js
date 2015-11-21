@@ -22,7 +22,7 @@ describe('update-dependencies', () => {
         var pkgPath = require.resolve('../doc/mocks/package.json');
         updateDependencies({
             pkgPath: pkgPath
-        }, function (err) {
+        }, (err) => {
             assert.ifError(err);
             done();
         });
