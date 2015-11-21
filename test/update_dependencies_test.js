@@ -1,17 +1,31 @@
 /**
  * Test case for updateDependencies.
- * Runs with nodeunit.
+ * Runs with mocha.
  */
+"use strict";
 
-var updateDependencies = require('../lib/update_dependencies.js');
+const updateDependencies = require('../lib/update_dependencies.js'),
+    assert = require('assert');
 
-exports['Update dependencies'] = function (test) {
-    var pkgPath = require.resolve('../doc/mockups/package.json');
-    updateDependencies({
-        pkgPath: pkgPath
-    }, function (err) {
-        test.ifError(err);
-        test.done();
+describe('update-dependencies', () => {
+
+    before((done) => {
+        done();
     });
-};
+
+    after((done) => {
+        done();
+    });
+
+
+    it('Update dependencies', (done) => {
+        var pkgPath = require.resolve('../doc/mocks/package.json');
+        updateDependencies({
+            pkgPath: pkgPath
+        }, function (err) {
+            assert.ifError(err);
+            done();
+        });
+    });
+});
 
