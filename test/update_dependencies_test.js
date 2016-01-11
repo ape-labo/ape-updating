@@ -19,7 +19,7 @@ describe('update-dependencies', () => {
 
 
     it('Update dependencies', (done) => {
-        var pkgPath = require.resolve('../doc/mocks/package.json');
+        let pkgPath = require.resolve('../doc/mocks/package.json');
         updateDependencies({
             pkgPath: pkgPath
         }, (err) => {
