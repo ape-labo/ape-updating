@@ -43,26 +43,6 @@ ape framework module for updating modules.
 <!-- Sections Start -->
 <a name="sections"></a>
 
-<!-- Section from "doc/readme/02.Usage.md.hbs" Start -->
-
-<a name="section-doc-readme-02-usage-md"></a>
-Usage
-----
-
-### Updat Dependencies in Package.
-
-```javascript
-var apeUpdating = require('ape-updating');
-
-// Update all dependencies
-apeUpdating(function (err) {
-    /*...*/
-});
-```
-
-
-<!-- Section from "doc/readme/02.Usage.md.hbs" End -->
-
 
 <!-- Sections Start -->
 

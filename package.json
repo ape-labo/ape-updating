@@ -1,6 +1,6 @@
 {
   "name": "ape-updating",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "ape framework module for updating modules.",
   "main": "lib",
   "scripts": {
@@ -33,8 +33,7 @@
     "ape-tasking": "^2.0.2",
     "ape-testing": "^2.0.0",
     "ape-tmpl": "^2.0.5",
-    "coz": "^4.0.0",
-    "coz-tmpl": "^1.1.0"
+    "coz": "^4.0.0"
   },
   "engines": {
     "node": ">=4.0.0"
