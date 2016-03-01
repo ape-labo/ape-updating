@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "glob": "^6.0.4"
+    "glob": "^7.0.0"
   },
   "devDependencies": {
     "async": "^1.5.2"
