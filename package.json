@@ -1,6 +1,6 @@
 {
   "name": "ape-updating",
-  "version": "2.0.5",
+  "version": "3.0.1",
   "description": "ape framework module for updating modules.",
   "main": "lib",
   "scripts": {
@@ -22,18 +22,18 @@
   "homepage": "https://github.com/ape-repo/ape-updating#readme",
   "dependencies": {
     "argx": "^2.0.2",
-    "async": "^1.5.2",
+    "co": "^4.6.0",
     "colorprint": "^3.0.3",
     "execcli": "^3.0.1"
   },
   "devDependencies": {
-    "ape-covering": "^2.0.2",
+    "ape-covering": "^3.0.0",
     "ape-releasing": "^2.0.1",
     "ape-reporting": "^2.0.3",
-    "ape-tasking": "^2.0.2",
-    "ape-testing": "^2.0.1",
-    "ape-tmpl": "^2.0.10",
-    "coz": "^4.0.3"
+    "ape-tasking": "^3.1.1",
+    "ape-testing": "^3.0.0",
+    "ape-tmpl": "^4.0.4",
+    "coz": "^5.0.2"
   },
   "engines": {
     "node": ">=4.0.0"

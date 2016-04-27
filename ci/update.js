@@ -4,15 +4,13 @@
  * Update project.
  */
 
-"use strict";
+'use strict'
 
-process.chdir(__dirname + '/..');
+process.chdir(`${__dirname}/..`)
 
-const apeTasking = require('ape-tasking'),
-    apeUpdating = require('../lib');
+const apeTasking = require('ape-tasking')
+const apeUpdating = require('../lib')
 
 apeTasking.runTasks('update', [
-    (callback) => {
-        apeUpdating.updateDependencies({}, callback);
-    }
-], true);
+  () => apeUpdating.updateDependencies({})
+], true)

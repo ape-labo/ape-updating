@@ -1,6 +1,8 @@
-var apeUpdating = require('ape-updating');
+'use strict'
+
+const apeUpdating = require('ape-updating')
 
 // Update all dependencies
-apeUpdating(function (err) {
-    /*...*/
-});
+apeUpdating.updateDependencies().then(() => {
+  /* ... */
+})
