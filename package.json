@@ -1,6 +1,6 @@
 {
   "name": "ape-updating",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "ape framework module for updating modules.",
   "main": "lib",
   "scripts": {
