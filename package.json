@@ -24,16 +24,16 @@
     "argx": "^2.0.2",
     "co": "^4.6.0",
     "colorprint": "^4.0.2",
-    "execcli": "^4.0.5"
+    "execcli": "^4.0.6"
   },
   "devDependencies": {
     "ape-covering": "^3.0.3",
-    "ape-releasing": "^3.1.1",
+    "ape-releasing": "^4.0.1",
     "ape-reporting": "^3.0.1",
-    "ape-tasking": "^4.0.1",
+    "ape-tasking": "^4.0.2",
     "ape-testing": "^4.0.0",
-    "ape-tmpl": "^5.0.3",
-    "coz": "^6.0.2"
+    "ape-tmpl": "^5.0.10",
+    "coz": "^6.0.3"
   },
   "engines": {
     "node": ">=6",
