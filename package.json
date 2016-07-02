@@ -1,7 +1,7 @@
 {
   "name": "ape-updating",
-  "version": "4.0.3",
-  "description": "ape framework module for updating modules.",
+  "version": "4.0.4",
+  "description": "Dependency updating utility.",
   "main": "lib",
   "scripts": {
     "test": "./ci/test.js"
@@ -30,9 +30,9 @@
     "ape-covering": "^3.0.3",
     "ape-releasing": "^4.0.1",
     "ape-reporting": "^3.0.1",
-    "ape-tasking": "^4.0.2",
+    "ape-tasking": "^4.0.3",
     "ape-testing": "^4.0.0",
-    "ape-tmpl": "^5.0.10",
+    "ape-tmpl": "^5.0.11",
     "coz": "^6.0.3"
   },
   "engines": {
