@@ -1,6 +1,6 @@
 {
   "name": "ape-updating",
-  "version": "4.0.4",
+  "version": "4.0.5",
   "description": "Dependency updating utility.",
   "main": "lib",
   "scripts": {

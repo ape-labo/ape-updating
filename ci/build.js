@@ -8,10 +8,10 @@
 
 process.chdir(`${__dirname}/..`)
 
-const apeTasking = require('ape-tasking')
+const { runTasks } = require('ape-tasking')
 const coz = require('coz')
 
-apeTasking.runTasks('build', [
+runTasks('build', [
   () => coz.render([
     '.*.bud',
     'lib/.*.bud',

@@ -8,10 +8,10 @@
 
 process.chdir(`${__dirname}/..`)
 
-const apeTasking = require('ape-tasking')
+const { runTasks } = require('ape-tasking')
 const apeReleasing = require('ape-releasing')
 
-apeTasking.runTasks('release', [
+runTasks('release', [
   () => apeReleasing.releasePackage({
     beforeRelease: [
       './ci/build.js',

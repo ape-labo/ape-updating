@@ -8,9 +8,9 @@
 
 process.chdir(`${__dirname}/..`)
 
-const apeTasking = require('ape-tasking')
-const apeUpdating = require('../lib')
+const { runTasks } = require('ape-tasking')
+const { updateDependencies } = require('../lib')
 
-apeTasking.runTasks('update', [
-  () => apeUpdating.updateDependencies({})
+runTasks('update', [
+  () => updateDependencies({})
 ], true)
