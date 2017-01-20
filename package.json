@@ -1,10 +1,12 @@
 {
   "name": "ape-updating",
-  "version": "4.0.6",
+  "version": "4.1.0",
   "description": "Dependency updating utility.",
+  "browser": false,
   "main": "lib",
   "scripts": {
-    "test": "./ci/test.js"
+    "test": "node ./ci/test.js",
+    "prepare": "node ./ci/build.js"
   },
   "repository": "ape-repo/ape-updating",
   "keywords": [
@@ -24,7 +26,8 @@
     "argx": "^3.0.0",
     "co": "^4.6.0",
     "colorprint": "^4.0.9",
-    "execcli": "^4.0.8"
+    "execcli": "^4.0.8",
+    "stringcase": "^3.2.0"
   },
   "devDependencies": {
     "ape-covering": "^3.0.4",
