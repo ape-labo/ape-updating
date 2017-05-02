@@ -1,6 +1,6 @@
 {
   "name": "ape-updating",
-  "version": "4.1.1",
+  "version": "4.1.2",
   "description": "Dependency updating utility.",
   "browser": false,
   "main": "lib",
@@ -26,8 +26,8 @@
     "argx": "^3.0.0",
     "co": "^4.6.0",
     "colorprint": "^4.0.9",
-    "execcli": "^4.0.8",
-    "stringcase": "^3.2.0"
+    "execcli": "^4.0.11",
+    "stringcase": "^3.2.1"
   },
   "devDependencies": {
     "ape-covering": "^3.0.4",
