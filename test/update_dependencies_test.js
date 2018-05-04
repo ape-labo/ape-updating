@@ -6,7 +6,6 @@
 
 const updateDependencies = require('../lib/update_dependencies.js')
 const assert = require('assert')
-const co = require('co')
 
 describe('update-dependencies', () => {
   before((done) => {
@@ -17,12 +16,12 @@ describe('update-dependencies', () => {
     done()
   })
 
-  it('Update dependencies', () => co(function * () {
-    let pkgPath = require.resolve('../doc/mocks/package.json')
-    yield updateDependencies({
+  it('Update dependencies', async () => {
+    const pkgPath = require.resolve('../misc/mocks/package.json')
+    await updateDependencies({
       pkgPath: pkgPath
     })
-  }))
+  })
 })
 
 /* global describe, before, after, it */

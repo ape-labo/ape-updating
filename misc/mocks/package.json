@@ -1,0 +1,9 @@
+{
+  "name": "ap-updating-test-pkg",
+  "description": "Just a mock",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/runtime": "7.0.0-beta.41"
+  }
+}

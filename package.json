@@ -1,6 +1,6 @@
 {
   "name": "ape-updating",
-  "version": "4.1.2",
+  "version": "5.0.1",
   "description": "Dependency updating utility.",
   "browser": false,
   "main": "lib",
@@ -24,10 +24,9 @@
   "homepage": "https://github.com/ape-repo/ape-updating#readme",
   "dependencies": {
     "argx": "^3.0.0",
-    "co": "^4.6.0",
     "colorprint": "^4.0.9",
-    "execcli": "^4.0.11",
-    "stringcase": "^3.2.1"
+    "execcli": "^5.0.2",
+    "stringcase": "^4.1.1"
   },
   "devDependencies": {
     "ape-covering": "^3.0.4",
@@ -35,11 +34,12 @@
     "ape-reporting": "^3.0.1",
     "ape-tasking": "^4.0.8",
     "ape-testing": "^4.0.2",
-    "ape-tmpl": "^5.0.14",
-    "coz": "^6.0.15"
+    "ape-tmpl": "^6.0.10",
+    "co": "^4.6.0",
+    "coz": "^7.0.1"
   },
   "engines": {
-    "node": ">=6",
-    "npm": ">=3"
+    "node": ">=8",
+    "npm": ">=5"
   }
 }
