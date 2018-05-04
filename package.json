@@ -1,6 +1,6 @@
 {
   "name": "ape-updating",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "Dependency updating utility.",
   "browser": false,
   "main": "lib",
